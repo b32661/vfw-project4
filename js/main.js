@@ -207,7 +207,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		if(localStorage.length === 0){
 			alert("There are no stomps to clean.");
 		}else{
-			localStorage.clean();
+			localStorage.clear();
 			alert("All stomps are removed!");
 			window.location.reload();
 			return false;
