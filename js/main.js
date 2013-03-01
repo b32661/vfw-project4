@@ -87,8 +87,8 @@ window.addEventListener("DOMContentLoaded", function(){
 	function grabData(){
 		toggleSwitch("on");
 		if(localStorage.length === 0){
-			alert("There are no Stomped times to display, so I'll fill in dummy data.");
 			dummyData();
+			alert("There are no Stomped times to display, so I'll fill in dummy data.");	
 		}
 		//Write Data from Local Storage to the browser.
 		var makeDiv = document.createElement('div');

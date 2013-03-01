@@ -12,20 +12,25 @@ h1 {
 	color: #F7ECC9;
 	background-color: #072111;
 }
-
-
-
 body {
 	background-image: url(../img/bkgTexture.png);
-	background-repeat: repeat;
-	
+	background-repeat: repeat;	
 }
 article {
 	padding: 5%;
-	margin-top: 20%;	
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: large;
+	
 }
 div {
-	background-color: #20421B;
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-radial-gradient(circle, #008B00, #20421B);
+	/* Firefox 3.6+ */
+	background: -moz-radial-gradient(circle, #008B00, #20421B);
+	/* IE 10 */
+	background: -ms-radial-gradient(circle, #008B00, #20421B);
+	/* Opera 11.10+ */
+	background: -o-radial-gradient(circle, #008B00, #20421B);
 	color: #FFEBB8;
 	text-align: center;
 	width: 80%;
@@ -50,26 +55,22 @@ a {
 	color: rgba(235,41,24,1);
 	background-position: center;
 }
-
 h2 {
 	font-family: "Times New Roman", Times, serif;
 	color: #FEDE52;
 }
-
 header {
 	margin-top:5%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
-
-
 nav {
 	background-color: #072111;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	margin-right: 40px;
 	margin-left: 40px;
-	margin-top: 10%;
-	margin-bottom: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	-webkit-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
 	-moz-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
 	box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
@@ -83,27 +84,21 @@ ul {
 li {
 	list-style-type: square;
 }
-
-
 label {
 	display: block;
 }
-
 fieldset {
 	margin-right: 15%;
 	margin-left: 15%;
 	border: medium ridge #F7ECC9;
 	-moz-border-radius: 2px;
-	border-radius: 2px;
-	
+	border-radius: 2px;	
 }
-
 .buttons {
 	background-color: #FEDE52;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
 }
-
 #asec {
 	margin-bottom: 10%;
 }
