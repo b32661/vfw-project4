@@ -87,9 +87,8 @@ window.addEventListener("DOMContentLoaded", function(){
 	function grabData(){
 		toggleSwitch("on");
 		if(localStorage.length === 0){
-			alert("There are no Stomped times to display.");
-			
-			window.location.reload();
+			alert("There are no Stomped times to display, so I'll fill in dummy data.");
+			dummyData();
 		}
 		//Write Data from Local Storage to the browser.
 		var makeDiv = document.createElement('div');
@@ -108,6 +107,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			var obj = JSON.parse(value);			
 			var makeSubList = document.createElement('ul');
 			makeLi.appendChild(makeSubList);
+			getImage(obj.group[1], makeSubList);
 			for(var n in obj){
 				var makeSubli = document.createElement('li')
 				makeSubList.appendChild(makeSubli);
@@ -118,6 +118,21 @@ window.addEventListener("DOMContentLoaded", function(){
 			makeSomeLinks(localStorage.key(i), linksLi);
 	}
 		
+	}
+	
+	function getImage(catName, makeSubList){
+		var imageLi = document.createElement('li');
+		makeSubList.appendChild(imageLi);
+		var newImg = document.createElement('img');
+		var setSrc = newImg.setAttribute("src", "img/"+ catName + ".png");
+		imageLi.appendChild(newImg);	
+	}
+	
+	function dummyData(){
+		for(var n in json){
+			var id = Math.floor(Math.random()*100000001);
+			localStorage.setItem(id, JSON.stringify(json[n]));
+			}	
 	}
 	
 	function makeSomeLinks(key, linksLi){

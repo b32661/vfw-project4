@@ -22,7 +22,6 @@
 	                <legend>What would you like to time-stamp?</legend>
 	                <ul id="errorList"></ul>
 	                <ul id="questions">
-                    	<p><em><small>* required</small></em></p>
 	                    <li id="select"><label for="group">*Stomp The:</label><br /></li>       
 	                    <li><label for="sure">How sure of time of event:</label><input type="range" id="sure" min="1" max="10"></li>  
 	                    <li>preferred format:</li>
@@ -38,7 +37,7 @@
 	                  <li><label for="eventTime">*time:</label><input type="eventTime" placeholder="12:01" id="eventTime"/></li>
 	                </ul>        
 	            </fieldset>
-	            <section>
+	            <section id="asec">
 	                <small><a href="#" id="displayIt">display data</a></small>
 	                <input type="submit" class="buttons"  id="submit" value="STOMP" />
 	                <small><a href="#" id="clean">clean stored data </a></small>
@@ -46,6 +45,7 @@
 	            </section>  
 	        </form>
 	        </div>
+            <script src="js/json.js"></script>
 	        <script src="js/main.js"></script>
 	</body>
 </html>

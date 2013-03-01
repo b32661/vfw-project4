@@ -6,7 +6,7 @@
  */
  //json dummy data for Timestomper
  var json = {
-	 "contact1":{
+	 "contact1": {
 		 "group":["Group:", "End"],
 		 "sure":["Sure:", "6"],
 		 "format":["Format:", "Standard"],
@@ -15,8 +15,7 @@
 		 "time":["Time:", "8:30"],
 		 "date":["Date:", "2/10/2013"]
 	 },
-	 {
-	 "contact2":{
+	 "contact2": {
 		 "group":["Group:", "Start"],
 		 "sure":["Sure:", "8"],
 		 "format":["Format:", "Standard"],
@@ -25,8 +24,7 @@
 		 "time":["Time:", "11:45"],
 		 "date":["Date:", "12/12/2012"]
 	 },
-	 {
-	 "contact3":{
+	 "contact3": {
 		 "group":["Group:", "Arrival"],
 		 "sure":["Sure:", "3"],
 		 "format":["Format:", "Standard"],
