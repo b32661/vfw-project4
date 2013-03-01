@@ -23,6 +23,7 @@ article {
 	
 }
 div {
+	background: #20421B;
 	/* Safari 5.1, Chrome 10+ */
 	background: -webkit-radial-gradient(circle, #008B00, #20421B);
 	/* Firefox 3.6+ */
