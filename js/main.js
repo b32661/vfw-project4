@@ -19,6 +19,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			selectLi = $('select'),
 			makeSelection = document.createElement('select');
 			makeSelection.setAttribute("id", "groups");
+			makeSelection.setAttribute("class", "buttons");
 		for(var i=0, j=grouping.length; i<j; i++){
 				var myOption = document.createElement('option');
 				var optText = grouping[i];
@@ -267,8 +268,10 @@ window.addEventListener("DOMContentLoaded", function(){
 		} else {
 		//if all is ok, record our data. send the key value(which came from the editData function. remember this key value was passed through the editSubmit event listener as a property
 			storeToLocal(this.key);
-		}
-	}
+		} 
+		
+	} 
+	
 		
 	// Variable defaults
 	var grouping = ["--What--", "Start", "End", "Arrival", "Departure" ],

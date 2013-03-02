@@ -83,7 +83,7 @@ ul {
 }
 
 li {
-	list-style-type: square;
+	list-style-type: decimal;
 }
 label {
 	display: block;
@@ -103,3 +103,11 @@ fieldset {
 #asec {
 	margin-bottom: 10%;
 }
+a:hover{
+	background-color: rgba(0,255,0,1);	
+}
+#items {
+	font-family: "Comic Sans MS", cursive;
+	text-transform: lowercase;	
+}
+

@@ -9,14 +9,14 @@
 	 "contact1": {
 		 "group":["Group:", "End"],
 		 "sure":["Sure:", "6"],
-		 "format":["Format:", "Standard"],
+		 "format":["Format:", "Military"],
 		 "name":["Name:", "Drill"],
 		 "description":["Description:", "Fire drill"],
 		 "time":["Time:", "8:30"],
 		 "date":["Date:", "2/10/2013"]
 	 },
 	 "contact2": {
-		 "group":["Group:", "Start"],
+		 "group":["Group:", "Departure"],
 		 "sure":["Sure:", "8"],
 		 "format":["Format:", "Standard"],
 		 "name":["Name:", "Game"],
