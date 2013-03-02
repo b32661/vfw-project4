@@ -34,9 +34,9 @@ div {
 	background: -o-radial-gradient(circle, #008B00, #20421B);
 	color: #FFEBB8;
 	text-align: center;
-	width: 80%;
+	width: 90%;
 	margin-right: 10%;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding-bottom: 8px;
 	padding-top: 2px;
 	-moz-border-radius: 20px;
@@ -89,8 +89,8 @@ label {
 	display: block;
 }
 fieldset {
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 5%;
+	margin-left: 5%;
 	border: medium ridge #F7ECC9;
 	-moz-border-radius: 2px;
 	border-radius: 2px;	
